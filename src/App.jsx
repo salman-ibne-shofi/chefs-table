@@ -1,10 +1,11 @@
 import './App.css'
+import Header from './Components/Header/Header'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-6xl '>Recipe Calories</h1>
+      <Header></Header>
     </>
   )
 }
