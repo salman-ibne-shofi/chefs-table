@@ -3,7 +3,7 @@ import search from "../../assets/iamges/search-icon.png";
 
 const Header = () => {
 	return (
-		<div className="flex justify-between items-center mx-auto mt-10 container">
+		<div className="flex justify-between items-center mx-auto mt-4 container">
 			<h1 className="text-4xl font-bold">Recipe Calories</h1>
 			<div className="flex gap-10 text-[#150B2B70]">
 				<a href="">Home</a>

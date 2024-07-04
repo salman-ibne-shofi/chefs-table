@@ -12,10 +12,10 @@ const Banner = () => {
 					skills but also drive revenue generation, foster community,
 					and eventually brand building.
 				</p>
-				<button className="border-none px-4 py-2 rounded-3xl bg-[#0BE58A] mr-2 font-bold">
+				<button className="border-none px-4 py-2 rounded-3xl bg-[#0BE58A] mr-2 font-semibold">
 					Explore Now
 				</button>
-				<button className="border px-4 py-2 rounded-3xl ml-2 font-bold text-[#FFF]">
+				<button className="border px-4 py-2 rounded-3xl ml-2 font-semibold text-[#FFF]">
 					Our Feedback
 				</button>
 			</div>
