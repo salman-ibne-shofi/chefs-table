@@ -1,5 +1,6 @@
 import user from "../../assets/iamges/user-icon.png";
 import search from "../../assets/iamges/search-icon.png";
+
 const Header = () => {
 	return (
 		<div className="flex justify-between items-center mx-auto mt-10 container">
