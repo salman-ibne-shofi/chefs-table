@@ -1,0 +1,56 @@
+[
+    {
+        "recipe_image": "https://i.ibb.co/WgNP3n0/1-Spaghetti.jpg",
+        "recipe_id": "1",
+        "recipe_name": "Classic Spaghetti",
+        "short_description": "A timeless Italian pasta dish with rich tomato sauce.",
+        "ingredients": ["Spaghetti", "Tomato sauce", "Garlic", "Olive oil", "Basil", "Parmesan cheese"],
+        "preparing_time": "30 minutes",
+        "calories": 450
+    },
+    {
+        "recipe_image": "https://i.ibb.co/1m0vQdK/2-chicken.jpg",
+        "recipe_id": "2",
+        "recipe_name": "Chicken Curry",
+        "short_description": "A flavorful and spicy chicken curry with a hint of coconut.",
+        "ingredients": ["Chicken", "Coconut milk", "Curry powder", "Onion", "Garlic", "Ginger"],
+        "preparing_time": "45 minutes",
+        "calories": 600
+    },
+    {
+        "recipe_image": "https://i.ibb.co/WvBHqty/3-salad.jpg",
+        "recipe_id": "3",
+        "recipe_name": "Vegan Salad",
+        "short_description": "A fresh and vibrant salad packed with vegetables and quinoa.",
+        "ingredients": ["Lettuce", "Tomato", "Cucumber", "Quinoa", "Avocado", "Lemon"],
+        "preparing_time": "20 minutes",
+        "calories": 300
+    },
+    {
+        "recipe_image": "https://i.ibb.co/tMfJ1x6/4-beef.jpg",
+        "recipe_id": "4",
+        "recipe_name": "Beef Stew",
+        "short_description": "A hearty stew with tender beef and root vegetables.",
+        "ingredients": ["Beef", "Carrot", "Potato", "Onion", "Beef broth", "Thyme"],
+        "preparing_time": "2 hours",
+        "calories": 700
+    },
+    {
+        "recipe_image": "https://i.ibb.co/x66bthc/5-pancakes.jpg",
+        "recipe_id": "5",
+        "recipe_name": "Fluffy Pancakes",
+        "short_description": "Light and fluffy pancakes perfect for a breakfast treat.",
+        "ingredients": ["Flour", "Eggs", "Milk", "Baking powder", "Sugar", "Butter"],
+        "preparing_time": "25 minutes",
+        "calories": 350
+    },
+    {
+        "recipe_image": "https://i.ibb.co/tMcWbjR/6-tacos.jpg",
+        "recipe_id": "6",
+        "recipe_name": "Chicken Tacos",
+        "short_description": "Delicious and easy-to-make chicken tacos with fresh toppings.",
+        "ingredients": ["Chicken", "Taco shells", "Lettuce", "Tomato", "Cheese", "Sour cream"],
+        "preparing_time": "30 minutes",
+        "calories": 400
+    }
+]
