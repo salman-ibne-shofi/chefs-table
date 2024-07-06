@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Item from "../Item/Item";
+import PropTypes from 'prop-types'
 
 const Items = ({ handleAddToWanttocook }) => {
 	const [Items, setItems] = useState([]);
@@ -11,7 +12,7 @@ const Items = ({ handleAddToWanttocook }) => {
 	}, []);
 
 	return (
-		<div className="grid grid-cols-2 gap-4 w-2/3 mt-10">
+		<div className="grid grid-cols-2 gap-4 w-2/3">
 			{Items.map((item) => (
 				<Item
 					key={item.recipe_id}
@@ -22,5 +23,9 @@ const Items = ({ handleAddToWanttocook }) => {
 		</div>
 	);
 };
+
+Items.propTypes = {
+    handleAddToWanttocook: PropTypes.func
+}
 
 export default Items;
