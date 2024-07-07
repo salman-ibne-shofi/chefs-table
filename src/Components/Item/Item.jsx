@@ -30,7 +30,7 @@ const Item = ({ item, handleAddToWanttocook }) => {
 			<div className="flex gap-10 mt-4">
 				<div className="flex gap-2">
 					<img src="https://i.ibb.co/kGtN6cp/clock-icon.png" alt="" />
-					{preparing_time}
+					{preparing_time} mins
 				</div>
 				<div className="flex gap-2">
 					<img src="https://i.ibb.co/pJJ5V5f/fire-icon.png" alt="" />
@@ -39,7 +39,7 @@ const Item = ({ item, handleAddToWanttocook }) => {
 			</div>
 			<button
 				onClick={() => handleAddToWanttocook(item)}
-				className="text-[#150B2B] font-bold border rounded-full px-5 py-2 bg-[#0BE58A] mt-4"
+				className="text-[#150B2B] font-bold border rounded-full px-5 py-2 bg-[#0BE58A] mt-4 button"
 			>
 				Want to Cook
 			</button>

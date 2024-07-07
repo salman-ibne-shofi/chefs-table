@@ -1,22 +1,25 @@
 import PropTypes from "prop-types";
 import Wantcook from "../Wantcook/Wantcook";
 
-const Wanttocook = ({ wanttocook }) => {
+const Wanttocook = ({ wanttocook, handleTotalTime, totaltime }) => {
 	return (
-		<div className="w-1/3 border-2 p-2 rounded-xl">
+		<div className="w-1/3 border-2  rounded-xl">
 			<h2 className="text-2xl font-bold text-center border-b p-2 text-[#282828]">
 				Want To Cook: {wanttocook.length}
 			</h2>
 			<div>
-				<div className="flex gap-28 p-6 mt-4 text-[#878787]">
+				<div className="flex gap-28 my-4 ml-4 text-[#878787] font-bold">
 					<a href="">Name</a>
-					<a href="">Time</a>
-					<a href="">Calories</a>
+					<div className="flex gap-20">
+						<a href="">Time</a>
+						<a href="">Calories</a>
+					</div>
 				</div>
 				{wanttocook.map((wanttocook) => (
 					<Wantcook
 						key={wanttocook.recipe_id}
 						wantcook={wanttocook}
+						handleTotalTime={handleTotalTime}
 					></Wantcook>
 				))}
 			</div>
@@ -25,11 +28,17 @@ const Wanttocook = ({ wanttocook }) => {
 					Currently cooking:
 				</h2>
 
-				<div className="flex justify-between p-6 mt-4 text-[#878787]">
+				<div className="flex gap-28 my-4 ml-4 text-[#878787] font-bold">
 					<a href="">Name</a>
-					<a href="">Time</a>
-					<a href="">Calories</a>
+					<div className="flex gap-20">
+						<a href="">Time</a>
+						<a href="">Calories</a>
+					</div>
 				</div>
+			</div>
+			<div className="flex justify-end gap-10 text-[#878787] font-bold p-4">
+				<a href="">Total Time = {totaltime} mins</a>
+				<a href="">Total Calories = </a>
 			</div>
 		</div>
 	);
@@ -37,6 +46,8 @@ const Wanttocook = ({ wanttocook }) => {
 
 Wanttocook.propTypes = {
 	wanttocook: PropTypes.array,
+	handleTotalTime: PropTypes.func,
+    totaltime: PropTypes.number
 };
 
 export default Wanttocook;

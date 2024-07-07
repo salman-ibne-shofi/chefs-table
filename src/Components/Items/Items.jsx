@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Item from "../Item/Item";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
 const Items = ({ handleAddToWanttocook }) => {
 	const [Items, setItems] = useState([]);
@@ -25,7 +25,7 @@ const Items = ({ handleAddToWanttocook }) => {
 };
 
 Items.propTypes = {
-    handleAddToWanttocook: PropTypes.func
-}
+	handleAddToWanttocook: PropTypes.func,
+};
 
 export default Items;

@@ -15,3 +15,7 @@
 	border: 1px solid #ccc;
 	border-radius: 100px;
 }
+
+.button:hover {
+	background-color: #28282870;
+}
