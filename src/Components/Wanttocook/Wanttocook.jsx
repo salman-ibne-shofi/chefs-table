@@ -33,7 +33,7 @@ const Wanttocook = ({
 			</div>
 			<div>
 				<h2 className="text-xl font-bold text-center border-b p-2 text-[#282828]">
-					Currently cooking: {cooking.length}
+					Currently Cooking: {cooking.length}
 				</h2>
 
 				<div className="flex gap-28 my-4 ml-4 text-[#878787] font-bold">
