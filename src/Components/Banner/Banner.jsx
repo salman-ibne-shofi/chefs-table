@@ -1,6 +1,6 @@
 const Banner = () => {
 	return (
-		<div className="container mx-auto mt-10 bg-[url('./src/assets/iamges/banner.png')] bg-cover min-h-[500px] bg-no-repeat rounded-3xl flex justify-center items-center">
+		<div className="container mx-auto mt-10 bg-[url('https://i.ibb.co/hy7VpJW/banner.png')] bg-cover min-h-[500px] bg-no-repeat rounded-3xl flex justify-center items-center">
 			<div className="text-center">
 				<h1 className="text-3xl text-[#FFF] font-extrabold text-center mb-10">
 					Discover an exceptional cooking <br /> class tailored for
