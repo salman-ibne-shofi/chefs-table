@@ -11,7 +11,7 @@ const Item = ({ item, handleAddToWanttocook }) => {
 	} = item;
 	return (
 		<div className="border-2 p-4 rounded-xl">
-			<img className="rounded-xl mb-4" src={recipe_image} alt="" />
+			<img className="rounded-xl mb-4 recipe_img" src={recipe_image} alt="" />
 			<h2 className="text-xl text-[#282828] font-bold">{recipe_name}</h2>
 			<p className="text-[#878787] mt-3">{short_description}</p>
 			<div className="border-y p-4 mt-4">

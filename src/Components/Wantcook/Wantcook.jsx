@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const Wantcook = ({ wantcook, handleTotalTime }) => {
-	const { recipe_name, preparing_time, calories} = wantcook;
+	const { recipe_name, preparing_time, calories } = wantcook;
 
 	return (
 		<div className="flex justify-between items-center bg-[#28282810] text-[#28282870] font-semibold p-4">
@@ -9,7 +9,9 @@ const Wantcook = ({ wantcook, handleTotalTime }) => {
 			<a href="">{preparing_time}</a>
 			<a href="">{calories}</a>
 			<button
-				onClick={() => handleTotalTime(preparing_time)}
+				onClick={() =>
+					handleTotalTime(preparing_time, calories, wantcook)
+				}
 				className="button font-bold text-[#150B2B] bg-[#0BE58A] rounded-full p-2"
 			>
 				Preparing
@@ -20,7 +22,7 @@ const Wantcook = ({ wantcook, handleTotalTime }) => {
 
 Wantcook.propTypes = {
 	wantcook: PropTypes.object,
-    handleTotalTime: PropTypes.func
+	handleTotalTime: PropTypes.func,
 };
 
 export default Wantcook;

@@ -19,3 +19,7 @@
 .button:hover {
 	background-color: #28282870;
 }
+
+.recipe_img{
+    height: 300px;
+}
