@@ -13,7 +13,9 @@ function App() {
 	const [totalCalories, setTotalCalories] = useState(0);
 
 	const handleAddToWanttocook = (item) => {
-		if (wanttocook.some(cookItem => cookItem.recipe_id == item.recipe_id)) {
+		if (
+			wanttocook.some((cookItem) => cookItem.recipe_id == item.recipe_id)
+		) {
 			alert("Already Exists!");
 			return;
 		}
@@ -30,7 +32,7 @@ function App() {
 	};
 
 	return (
-		<>
+		<div className="w-[96%] max-w-[1320px] mx-auto py-12">
 			<Header></Header>
 			<Banner></Banner>
 			<Recipes></Recipes>
@@ -44,7 +46,7 @@ function App() {
 					totalCalories={totalCalories}
 				></Wanttocook>
 			</div>
-		</>
+		</div>
 	);
 }
 

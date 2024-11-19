@@ -9,7 +9,6 @@ const Header = () => {
 				<a href="">Home</a>
 				<a href="">Recipes</a>
 				<a href="">About</a>
-				<a href="">Search</a>
 			</div>
 			<div className="flex gap-3 search-container">
 				<img className="search-icon" src={search} alt="" />
